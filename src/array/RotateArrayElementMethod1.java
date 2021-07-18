@@ -2,7 +2,7 @@ package array;
 
 import java.util.Scanner;
 
-public class RotateArrayElement {
+public class RotateArrayElementMethod1 {
 
 	
 	public int[] rotateArray(int[] arr, int d){
@@ -31,7 +31,7 @@ public class RotateArrayElement {
 	public static void main(String[] args) {
 			
 	    int tc, N, D;
-	    RotateArrayElement gfg = new RotateArrayElement();
+	    RotateArrayElementMethod1 gfg = new RotateArrayElementMethod1();
         Scanner scan = new Scanner(System.in);
         tc = scan.nextInt();
         for(int i = 0; i<tc; i++){
